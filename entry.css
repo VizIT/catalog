@@ -1,0 +1,106 @@
+html.product body
+{
+  margin:     0;
+  padding:    0;
+  position:   relative;
+  background: none transparent;
+}
+
+/* Specific position for the help icon */
+div.helpHelpIcon
+{
+  bottom:     3px;
+  right:      3px;
+}
+
+/* Set display to block if no WebGL on platform */
+div.infoHelpIcon
+{
+  bottom:      3px;
+  right:      38px;
+  display:    none;
+}
+
+div.helpIcon
+{
+  position:   absolute;
+  padding:        0;
+  margin:         0;
+  height:     32px;
+  width:      32px;
+  font-size:  1.5em;
+  font-style: italic;
+  text-align: center;
+  /* Guarantees a circular div */
+  border-radius: 50%;
+  background-image: -webkit-radial-gradient(50% 0%, circle cover, white, black);
+  background-image: -moz-radial-gradient(50% 0%, circle cover, white, black);
+  background-image: -ms-radial-gradient(50% 0%, circle cover, white, black);
+  background-image: -o-radial-gradient(50% 0%, circle cover, white, black);
+  background-image: radial-gradient(50% 0%, circle cover, white, black);
+  opacity:            0.3;
+  transition:         opacity 0.5s linear;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition:    opacity 0.5s linear;
+  -ms-transition:     opacity 0.5s linear;
+  -o-transition:      opacity 0.5s linear;
+}
+
+div.helpIcon:hover
+{
+   opacity:           1.0;
+}
+
+div.helpIcon2
+{
+  border:         0;
+  position:      absolute;
+  padding:        0;
+  margin:         0;
+  bottom:         3px;
+  right:          3px;
+  height:        26px;
+  width:         26px;
+  border-radius: 50%;
+  background-image: -webkit-radial-gradient(50% 100%, circle cover, white, black);
+  background-image: -moz-radial-gradient(   50% 100%, circle cover, white, black);
+  background-image: -ms-radial-gradient(    50% 100%, circle cover, white, black);
+  background-image: -o-radial-gradient(     50% 100%, circle cover, white, black);
+  background-image: radial-gradient(        50% 100%, circle cover, white, black);
+}
+div.helpIcon3
+{
+  border:         0;
+  position:      absolute;
+  padding:        0;
+  margin:         0;
+  bottom:         1px;
+  right:          1px;
+  height:        24px;
+  width:         24px;
+  border-radius: 50%;
+  background:    #216EDA;
+  background-image: -webkit-radial-gradient(50% 100%, circle cover, rgba(79, 238, 255, 1), rgba(79, 238, 255, 0));
+  background-image: -moz-radial-gradient(   50% 100%, circle cover, rgba(79, 238, 255, 1), rgba(79, 238, 255, 0));
+  background-image: -ms-radial-gradient(    50% 100%, circle cover, rgba(79, 238, 255, 1), rgba(79, 238, 255, 0));
+  background-image: -o-radial-gradient(     50% 100%, circle cover, rgba(79, 238, 255, 1), rgba(79, 238, 255, 0));
+  background-image: radial-gradient(        50% 100%, circle cover, rgba(79, 238, 255, 1), rgba(79, 238, 255, 0));
+}
+div.infoIcon3
+{
+  border:         0;
+  position:      absolute;
+  padding:        0;
+  margin:         0;
+  bottom:         1px;
+  right:          1px;
+  height:        24px;
+  width:         24px;
+  border-radius: 50%;
+  background:    #b8a901;
+  background-image: -webkit-radial-gradient(50% 100%, circle cover, rgba(253, 245, 150, 1), rgba(253, 245, 150, 0));
+  background-image: -moz-radial-gradient(   50% 100%, circle cover, rgba(253, 245, 150, 1), rgba(253, 245, 150, 0));
+  background-image: -ms-radial-gradient(    50% 100%, circle cover, rgba(253, 245, 150, 1), rgba(253, 245, 150, 0));
+  background-image: -o-radial-gradient(     50% 100%, circle cover, rgba(253, 245, 150, 1), rgba(253, 245, 150, 0));
+  background-image: radial-gradient(        50% 100%, circle cover, rgba(253, 245, 150, 1), rgba(253, 245, 150, 0));
+}
