@@ -25,11 +25,10 @@
 
   if (drawingSurface != null)
   {
-    document.body.appendChild(drawingSurface);
-
     renderer           = new fieldRenderer(drawingSurface, "../../efield/");
     if (renderer.getContext())
     {
+      document.body.appendChild(drawingSurface);
       renderer           = placeStartPoints(renderer);
       chargeDistribution = new chargedSphere( -1, 0.0, 0.0, 0.0, 0.0, 50.0);
       renderer           = renderer.addChargeDistribution(chargeDistribution);

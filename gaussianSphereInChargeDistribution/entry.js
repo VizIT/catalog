@@ -26,11 +26,10 @@
 
   if (drawingSurface != null)
   {
-    document.body.appendChild(drawingSurface);
-
     renderer           = new fieldRenderer(drawingSurface, "../../efield/");
     if (renderer.getContext())
     {
+      document.body.appendChild(drawingSurface);
       renderer           = placeStartPoints(renderer);
       gaussianSurface    = new gaussianSphere(0.0, 0.0, 0.0, 10.0);
       renderer           = renderer.addGaussianSurface(gaussianSurface);

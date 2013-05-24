@@ -56,11 +56,10 @@
 
   if (drawingSurface != null)
   {
-    document.body.appendChild(drawingSurface);
-
     renderer       = new fieldRenderer(drawingSurface, "../../efield/");
     if (renderer.getContext())
     {
+      document.body.appendChild(drawingSurface);
       renderer       = placeCharges(renderer);
       renderer       = placeStartPoints(renderer);
       renderer.start();
