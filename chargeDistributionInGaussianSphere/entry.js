@@ -34,7 +34,7 @@
       renderer           = placeStartPoints(renderer);
       gaussianSurface    = new gaussianSphere(0.0, 0.0, 0.0, 60.0);
       renderer           = renderer.addGaussianSurface(gaussianSurface);
-      chargeDistribution = new chargedSphere( -1, 0.0, 0.0, 0.0, 20.0, 50.0);
+      chargeDistribution = new chargedSphere( -1, 0.0, 0.0, 0.0, 0.0, 20.0, 50.0);
       renderer           = renderer.addChargeDistribution(chargeDistribution);
       renderer.start();
     }

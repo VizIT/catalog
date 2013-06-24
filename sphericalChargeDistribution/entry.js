@@ -30,7 +30,7 @@
     {
       document.body.appendChild(drawingSurface);
       renderer           = placeStartPoints(renderer);
-      chargeDistribution = new chargedSphere( -1, 0.0, 0.0, 0.0, 0.0, 50.0);
+      chargeDistribution = new chargedSphere( -1, 0.0, 0.0, 0.0, 0.0, 0.0, 50.0);
       renderer           = renderer.addChargeDistribution(chargeDistribution);
       renderer.start();
     }
