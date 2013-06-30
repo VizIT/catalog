@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualization Catalog FAQ</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <meta name="viewport"           content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"          href="css/nstyle.css" type="text/css" />
+    <link rel="stylesheet"          href="catalog.css"      type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+    <div id="main">
+      <div id="header">
+        <span class="logo2 Fell"><a href = "http://www.vizitsolutions.com/">Vizit Solutions</a></span>
+        <ul>
+          <li><a href="portfolio/catalog/" title="catalog">Catalog</a></li>
+          <li><a href="portfolio/" title="Portfolio">Portfolio</a></li>
+          <li><a href="http://blog.vizitsolutions.com/" title="Blog">Blog</a></li>
+          <li><a href="mailto:akluge@vizitsolutions.com?subject=Visualization" title="akluge@vizitsolutions.com">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+      <h2>Visualization Catlog FAQ</h2>
+        <p>
+          This addresses most of the questions and issues that arise with these visualizations.
+          If your question or concern is not addresses here, please feel free to <a href
+          = "mailto:akluge@vizitsolutions.com">contact us</a>.
+        </p>
+        <details>
+          <summary class="faqElement">The License</summary>
+          <a href = "http://www.apache.org/licenses/LICENSE-2.0.html">The Apache License</a>         
+          has an associated <a href = "http://www.apache.org/foundation/license-faq.html">FAQ</a>,
+          with some of the most important points in the <a href
+          ="http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN">What does
+          it all MEAN?</a> section. Including
+          <ul>
+            <li>It allows you to:</li>
+            <ul>
+              <li>freely download and use this software, in whole or in part,
+                  for personal, company internal, or commercial purposes;</li>
+              <li>use this software in packages or distributions that you create.</li>
+            </ul>
+            <li>It does not allow you to:</li>
+            <ul>
+              <li>redistribute any piece of the software software without proper attribution;</li>
+            </ul>
+            <li>It requires you to:</li>
+            <ul>
+              <li>include a copy of the license in any redistribution you may make that includes the software;</li>
+            </ul>
+            <li>It does not require you to:</li>
+            <ul>
+              <li>include the source of the software itself, or of any modifications you may have made to it,
+                  in any redistribution you may assemble that includes it;</li>
+              <li>submit changes that you make to the software back to Vizit Solutions, though it is encouraged.</li>
+            </ul>
+          </ul>
+        </details>
+        <details>
+          <summary class="faqElement">Customizations</summary>
+          <p>
+            The <a href = "http://www.vizitsolutions.com/portfolio/efield/">efield toolkit</a> used to create
+            the visualizations in the catalog is itself a well documented open source project and can be easily
+            used to generate additional visualizations. The toolkit can itself be extended to model additional
+            charge configurations or Gaussian surfaces.
+          </p>
+          <p>
+            Additional, potentially complex, visualizations can be commissioned across a broad range of topics.
+            These need not be open source projects, though it will be financially advantageous to commission an
+            open source project or extension to an existing project. They need not even be limited to web based
+            projects. This same OpenGL based methodology is applicable to Android and iOS.
+          </p>
+        </details>
+        <details>
+          <summary class="faqElement">Scaling and Resizing</summary>
+          <p>
+            By default the visualization is displayed in a 200px <i>x</i> 200px canvas.
+           A different size is specified by adding a canvas height and canvas width to
+           the URL. The standard sized entry
+          </p>
+    <figure class="productDisplay">
+      <figcaption>This Visualization</figcaption>
+      <figure>
+        <iframe seamless width="210" height="210" allowTransparency="true"
+                         src="positivelyChargedPlaneWithPositiveCharge/index.html">
+        </iframe>
+        <figcaption>The electric field from the positively charged plane
+                diverges from the positive charge.</figcaption>
+      </figure>
+    </figure>
+    <figure class="productExample clearAfter">
+      <figcaption>Is Loaded by this HTML</figcaption>
+<pre>
+  &lt;figure class="product"&gt;
+    &lt;iframe seamless width="210" height="210"
+            allowTransparency="true"
+            src="http://vizit.github.io/catalog/positivelyChargedPlaneWithPositiveCharge/index.html"&gt;
+    &lt;/iframe&gt;
+    &lt;figcaption&gt;The electric field from the positively charged plane
+                diverges from the positive charge.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+</pre>
+
+  <p>
+    is easily resized. Further because each visualization is generated dynamically,
+    there are no side effects such as pixelization or distortion from the resizing.
+    This magnification is useful for in class demonstrations or for those who find
+    a larger image easier to view.
+  </p>
+
+    <figure>
+      <figcaption>This Visualization</figcaption>
+      <figure>
+        <iframe seamless width="410" height="410" allowTransparency="true"
+                         src="positivelyChargedPlaneWithPositiveCharge/index.html?canvasHeight=400&canvasWidth=400">
+        </iframe>
+        <figcaption>The electric field from the positively charged plane
+                diverges from the positive charge.</figcaption>
+      </figure>
+    </figure>
+    <figure class="productExample clearAfter">
+      <figcaption>Is Loaded by this HTML</figcaption>
+<pre>
+  &lt;figure class="product"&gt;
+    &lt;iframe seamless width="410" height="410"
+            allowTransparency="true"
+            src="http://vizit.github.io/catalog/positivelyChargedPlaneWithPositiveCharge/index.html?canvasHeight=400&canvasWidth=400"&gt;
+    &lt;/iframe&gt;
+    &lt;figcaption&gt;The electric field from the positively charged plane
+                diverges from the positive charge.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+</pre>
+      </figure>
+        </details>
+        <details>
+          <summary class="faqElement">Known Issues</summary>
+          <p>
+            The site adheres quite closely to the HTML5, ECMAScript (aka JavaScript&#0153;),
+            and WebGL standards. However, despite our best efforts not all examples render
+            as expected on all browsers. For example
+            <details>
+              <summary>The catalog entries do not fully render.</summary>
+                <p>
+                  There is a known issue with Chrome on some mobile graphics cards where the last
+                  elements drawn with WebGL included in an iframe are lost. Work around this
+                  by including the JavaScript that generates the visualization directly in your
+                  content. The use of iframes in the catalog is for convenience only.
+                </p>
+            </details>
+            <details>
+              <summary>The embedded iframe loads slowly.</summary>
+              <p>
+                Superior performance can be achieved by including the JavaScript
+                that generates the visualization directly in your content. The use
+                of iframes in the catalog is for convenience only.
+              </p>
+            </details>
+            <details>
+              <summary>On Firefox mobile only two fisualizations render on a page</summary>
+              <p>
+                <a href = "https://bugzilla.mozilla.org/show_bug.cgi?id=820015">Firefox mobile has placed
+                an arbitrary limit of two WebGL contexts</a> that can be active on a page. The pages render
+                as expected with either a desktop version of Firefox or any version of Chrome. We are
+                considering rewriting the documentation to limit the number of WebGL examples on any
+                one page.
+              </p>
+            </details>
+          </p>
+        </details>
+
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

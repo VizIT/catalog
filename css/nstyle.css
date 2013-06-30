@@ -402,6 +402,26 @@ div.figure img, div.figure embed, div.floatLeft img, div.floatLeft embed
   padding:      3px;
 }
 
+iframe[seamless]
+{
+  background-color: transparent;
+  border:           0px none transparent;
+}
+
+details
+{
+  color:        #000066;
+  padding-left: 2em;
+}
+
+summary.faqElement
+{
+   font-family: Tahoma, Arial, sans-serif;
+   font-weight: normal;
+   color:       #0050B2;
+   background:  transparent;
+}
+
 p.error
 {
   display:      none;

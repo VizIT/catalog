@@ -2,9 +2,10 @@
 <html>
   <head>
     <title>Visualization Catalog</title>
-    <meta   http-equiv="Content-Type" content="text/html;charset=utf-8" >
-    <link   rel="stylesheet"          href="css/nstyle.css" type="text/css" />
-    <link   rel="stylesheet"          href="catalog.css"    type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <meta name="viewport"           content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"          href="css/nstyle.css" type="text/css" />
+    <link rel="stylesheet"          href="catalog.css"      type="text/css" />
   </head>
   <body>
     <div class="wrapper">
@@ -21,35 +22,31 @@
       <div class="content">
       <h2>Visualization Catalog</h2>
       <p>
+        Help your audience gain a deep and intuitive understanding of physics in three
+        dimensions. Present realistic interactive visualizations when you first
+        introduce these concepts. These open source visualizations are easily included
+        in your content, and can directly replace many of the standard images in
+        electrostatics and soon for other topics as well.
+      </p>
+      <p>
         Think of it as clip art for visualizations.
       </p>
       <p>
        Click any of the catalog entries to see a live example with its HTML markup.
        The markup loads the visualization from the GitHub repository and can easily
-       be incorporated into any web content. Each visualization is contained within
+       be incorporated into any HTML content. Each visualization is contained within
        a small web page for easy inclusion as an iframe in larger content making
-       these visualizations a drop-in replacment for images.
+       these visualizations a drop-in replacement for images. For additional issues,
+       such as how to size these visualizations, or your license obligations, see the
+       <a href = "FAQ.html">FAQ</a>.
       </p>
       <p>
        Each visualization presents an interactive three dimensional model built with
        WebGL and a small help button in the lower right corner. In the event WebGL
-       is not available, a static image is dislayed along with an additional info icon
+       is not available, a static image is displayed along with an additional info icon
        that links to instructions for enabling WebGL on that platform.
       </p>
-      <p>
-        Each visualization is accessed through a URL like
-      </p>
-<pre>
-     http://vizit.github.com/catalog/<i>name</i>/index.html
-</pre>
-      <p>
-        By default the visualization is displayed in a 200px <i>x</i> 200px canvas. A different size
-        is specified by appending URL parameters to the request. This requests a 400px <i>x</i> 400px
-        visualization of a dipole.
-      </p>
-<pre>
-     http://vizit.github.com/catalog/dipole/index.html?canvasHeight=400&canvasWidth=400
-</pre>
+
       <div class="entry">
         <a href = "positiveCharge/product.html" class="floatleft">
           <figure class="center entry">
