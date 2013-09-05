@@ -18,8 +18,8 @@
                                              91.9206781186547524,  -35.7106781186547523,   135.710678118654753,
                                             -49.5006781186547524, -135.710678118654752,     35.7106781186547525);
       renderer           = renderer.addChargeDistribution(chargeDistribution);
-
-      gaussianSurface    = new gaussianCylinder(21.21, -15.0, 15.0, 30, 55, -Math.PI/4, -Math.PI/4, 0);
+      // Angles read off from charged line code with coordinates from a field line from this example.
+      gaussianSurface    = new gaussianCylinder(21.21, -15.0, 15.0, 30, 55, 2.5307806170144, 1.0485904877995598);
       renderer.addGaussianSurface(gaussianSurface);
 
       renderer.start();

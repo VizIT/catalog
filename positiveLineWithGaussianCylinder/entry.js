@@ -16,7 +16,7 @@
   function placeGaussianSurface(fieldRenderer)
   {
     // Copied angles from running javascript for the charged line.
-    gaussianSurface    = new gaussianCylinder(0.0, 0.0, 0.0, 40, 15, 2.32986653606156, 0, 0.3217505543966422);
+    gaussianSurface    = new gaussianCylinder(0.0, 0.0, 0.0, 40, 15, 0.3217505543966422, 2.32986653606156);
 
     fieldRenderer.addGaussianSurface(gaussianSurface);
 

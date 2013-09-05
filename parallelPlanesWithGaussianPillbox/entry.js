@@ -26,7 +26,7 @@
                                             -50.0, -100., -100.);
       renderer           = renderer.addChargeDistribution(chargeDistribution);
 
-      gaussianSurface    = new gaussianCylinder(0, 0, 0, 130, 55, -1.5208379310729538, 0, 0);
+      gaussianSurface    = new gaussianCylinder(0, 0, 0, 130, 55, 0, -1.5208379310729538);
       renderer.addGaussianSurface(gaussianSurface);
 
       renderer.start();
