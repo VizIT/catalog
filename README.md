@@ -10,4 +10,4 @@ snippet from the catalog entry description. It is also possible to install and u
 local use it is necessary to install the [efield library](http://vizit.github.io/efield/) in an accompanying
 directory.
 
-Visit the [Visualization Catalog](http://vizit.github.io/catalog/)
+Visit the [Visualization Catalog](http://vizit.github.io/catalog/).
