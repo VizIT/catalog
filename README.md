@@ -1,5 +1,7 @@
-Visualization Catalog (http://vizit.github.io/catalog/) - Pure HTML5 Electric Field Visualizations
-==================================================================================================================
+[Visualization Catalog](http://vizit.github.io/catalog/)
+========================================================
+A Collection Of Electric Field Visualizations
+---------------------------------------------
 
 The Visualization Catalog contains pre-built visualizations for the [efield library](http://vizit.github.io/efield/).
 Visualizations include the electric field from point charges, line charges, planes and cylinders. Many examples
